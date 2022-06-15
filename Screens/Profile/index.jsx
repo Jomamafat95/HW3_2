@@ -4,13 +4,13 @@ import React from 'react';
 export default function ProfileScreen(){
     return(
 
-<View style={styles.container}>
+<View style={styles.Mycontainer}>
 <ImageBackground 
-            style={styles.image}
+            style={styles.Myimage}
             source={require('../../assets/Image2.jpg')}/>
 <View>
-<Text style={styles.text}>
-        I am rich I deserv it I am good, healthy {'&'} successful
+<Text style={styles.Mytext}>
+        I am a billionaire
     </Text>
 
             

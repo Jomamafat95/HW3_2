@@ -8,16 +8,16 @@ export default function HomeScreen({navigation}) {
 
        
 
-<View style={styles.container}>
+<View style={styles.Mycontainer}>
     
     <ImageBackground 
-    style={styles.backImage}
+    style={styles.MybackImage}
     source={require('../../assets/Image1.jpg')}/>
 
-      <View style={styles.infoButton}>
+      <View style={styles.MyinfoButton}>
       <Pressable onPress={() => navigation.navigate('Profile')}>
         <Image
-          style={styles.logo}
+          style={styles.Mylogo}
           source={require('../../assets/infowhite.png')}
         />
 

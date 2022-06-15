@@ -2,25 +2,25 @@ import { StyleSheet } from "react-native";
 
  const styles = StyleSheet.create({
 
-    container: {
+    Mycontainer: {
         flex: 1,
         backgroundColor: 'black',
         alignItems: 'center',
         justifyContent: 'center',
       },
 
-    logo:{
+    Mylogo:{
         width:30,
         height:30,
     },
 
-    infoButton: {
-      paddingTop: '130%',
+    MyinfoButton: {
+      paddingTop: '140%',
         paddingRight: '7%',
       alignSelf: 'flex-end'
     },
 
-    backImage: {
+    MybackImage: {
       width: 320,
       height: 320,
       position: 'absolute',

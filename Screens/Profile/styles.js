@@ -3,21 +3,21 @@ import { StyleSheet } from "react-native";
  
 
     const styles = StyleSheet.create({
-        container: {
+        Mycontainer: {
           flex: 1,
           backgroundColor: 'black',
           alignItems: 'center',
           justifyContent: 'center',
         },
     
-        text: {
+        Mytext: {
           fontSize: 60,
           paddingLeft:10,
           color: 'white',
           alignItems: 'center'
         },
     
-        image:{
+        Myimage:{
           width:300,
           height:400,
           opacity:.4,
